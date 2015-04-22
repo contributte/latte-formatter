@@ -20,12 +20,19 @@ $ composer require minetro/formatter:~1.0.0
 Register in your config file (e.q. config.neon).
 
 ```neon
-services
-
-    formatter.number: 
-        class: Minetro\Formatter\NumberFormatter('Kè')
+services:
+    formatter.money: 
+        class: Minetro\Formatter\NumberFormatter('Kc')
+        
+    formatter.weight: 
+        class: Minetro\Formatter\NumberFormatter('kg', '~')
+        setup:
+            - setThousand(NULL)
+            - setDecimal(0)
     
     nette.latteFactory:
         setup:
             - addFilter(money, [@formatter.number,format])
+            # or
+            - addFilter(weight, @formatter.number::format)
 ```
