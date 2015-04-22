@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+sh ../vendor/bin/tester Formatter -s -j 40 -log formatter.log $@
+rm "./tmp" -f -R
