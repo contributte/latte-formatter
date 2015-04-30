@@ -1,4 +1,4 @@
-# Events
+# Latte-Formatter
 
 [![Build Status](https://travis-ci.org/minetro/latte-formatter.svg?branch=master)](https://travis-ci.org/minetro/latte-formatter)
 [![Downloads this Month](https://img.shields.io/packagist/dm/minetro/latte-formatter.svg?style=flat)](https://packagist.org/packages/minetro/latte-formatter)
