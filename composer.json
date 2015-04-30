@@ -1,5 +1,5 @@
 {
-  "name": "minetro/formatter",
+  "name": "minetro/latte-formatter",
   "description": "Simple string formatter for Latte",
   "type": "library",
   "license": ["BSD-3-Clause"],
