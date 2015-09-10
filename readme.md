@@ -1,9 +1,9 @@
 # Latte-Formatter
 
-[![Build Status](https://travis-ci.org/minetro/latte-formatter.svg?branch=master)](https://travis-ci.org/minetro/latte-formatter)
-[![Downloads this Month](https://img.shields.io/packagist/dm/minetro/latte-formatter.svg?style=flat)](https://packagist.org/packages/minetro/latte-formatter)
-[![Latest stable](https://img.shields.io/packagist/v/minetro/latte-formatter.svg?style=flat)](https://packagist.org/packages/minetro/latte-formatter)
-[![HHVM Status](https://img.shields.io/hhvm/minetro/latte-formatter.svg?style=flat)](http://hhvm.h4cc.de/package/minetro/latte-formatter)
+[![Build Status](https://img.shields.io/travis/minetro/latte-formatter.svg?style=flat-square)](https://travis-ci.org/minetro/latte-formatter)
+[![Downloads total](https://img.shields.io/packagist/dt/minetro/latte-formatter.svg?style=flat-square)](https://packagist.org/packages/minetro/latte-formatter)
+[![Latest stable](https://img.shields.io/packagist/v/minetro/latte-formatter.svg?style=flat-square)](https://packagist.org/packages/minetro/latte-formatter)
+[![HHVM Status](https://img.shields.io/hhvm/minetro/latte-formatter.svg?style=flat-square)](http://hhvm.h4cc.de/package/minetro/latte-formatter)
 
 Simple string formatter for Latte.
 
