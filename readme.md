@@ -40,5 +40,5 @@ services:
         setup:
             - addFilter(money, [@formatter.number,format])
             # or
-            - addFilter(weight, @formatter.number::format)
+            - addFilter(money, @formatter.number::format)
 ```
