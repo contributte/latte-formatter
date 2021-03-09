@@ -15,8 +15,8 @@ Simple string formatter for Latte.
 
 ## Install
 
-```sh
-$ composer require minetro/latte-formatter:~1.0.0
+```bash
+composer require minetro/latte-formatter:~1.0.0
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ $ composer require minetro/latte-formatter:~1.0.0
 
 Register in your config file (e.q. config.neon).
 
-```neon
+```yaml
 services:
     formatter.money: 
         class: Minetro\Formatter\NumberFormatter('Kc')
