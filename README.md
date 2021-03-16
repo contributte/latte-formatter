@@ -15,8 +15,8 @@ Simple string formatter for Latte.
 
 ## Install
 
-```sh
-$ composer require minetro/latte-formatter:~1.0.0
+```bash
+composer require minetro/latte-formatter:~1.0.0
 ```
 
 ## Usage
@@ -27,18 +27,16 @@ Register in your config file (e.q. config.neon).
 
 ```neon
 services:
-    formatter.money: 
-        class: Minetro\Formatter\NumberFormatter('Kc')
-        
-    formatter.weight: 
-        class: Minetro\Formatter\NumberFormatter('kg', '~')
-        setup:
-            - setThousand(NULL)
-            - setDecimal(0)
-    
-    nette.latteFactory:
-        setup:
-            - addFilter(money, [@formatter.number,format])
-            # or
-            - addFilter(money, @formatter.number::format)
+	formatter.money: 
+		class: Minetro\Formatter\NumberFormatter('Kc')
+	formatter.weight: 
+		class: Minetro\Formatter\NumberFormatter('kg', '~')
+		setup:
+			- setThousand(NULL)
+			- setDecimal(0)
+	nette.latteFactory:
+		setup:
+			- addFilter(money, [@formatter.number,format])
+			# or
+			- addFilter(money, @formatter.number::format)
 ```
