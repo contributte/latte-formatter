@@ -15,7 +15,7 @@
 | :warning: | This project is no longer being maintained. Please use [contributte/utils](https://github.com/contributte/utils).
 |---|---|
 
-| Composer | [`minetro/latte-formatter`](https://packagist.org/minetro/latte-formatter) |
+| Composer | [`minetro/latte-formatter`](https://packagist.org/packages/minetro/latte-formatter) |
 |---| --- |
 | Version | ![](https://badgen.net/packagist/v/minetro/latte-formatter) |
 | PHP | ![](https://badgen.net/packagist/php/minetro/latte-formatter) |
